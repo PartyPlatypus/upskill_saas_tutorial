@@ -16,6 +16,8 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 
 h1, h2, h3 {
@@ -23,6 +25,7 @@ h1, h2, h3 {
     
 }
 
+//Background gradient
 .navbar, .home-callout {
     
     background: #215f00; /* fallback for old browsers */
@@ -45,6 +48,8 @@ h1, h2, h3 {
 }
 
 
+
+// Home page Styles
 .home-callout {
   color: white;
   margin-top: -20px;
